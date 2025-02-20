@@ -1,0 +1,64 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    background-color: black
+}
+#jeetu{
+    height: 50%;  
+    margin: 20%; 
+ }
+span{
+    background: linear-gradient(to right,rgb(34, 221, 231) rgb(237, 4, 125));
+    font-size: 2vmax;
+    background-clip: text;
+    color: transparent
+    }
+
+button {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(79, 224,234);
+    box-shadow:2px 2px 50px rgb(79, 224,234);
+}
+
+button:hover {
+    background-color: #dcdfe4;
+}
+
+
+
+
+.response {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+p{
+    font-size: 1.5vmax;
+    color: azure;
+}
+#speaking{
+    width: 100px;
+}
+#gif {
+    width: 50vh;
+    height: 100px;
+}
