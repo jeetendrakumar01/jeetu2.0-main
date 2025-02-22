@@ -5,59 +5,58 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
-    padding: 10px;
     gap: 10px;
-    background-color: black
 }
-#jeetu{
-    height: 50%;  
-    margin: 20%; 
- }
+
+  #jeetu{
+      height: 50%;
+       margin: 4%;
+     }
+
+
 span{
-    background: linear-gradient(to right,rgb(34, 221, 231) rgb(237, 4, 125));
+    background: linear-gradient(to right,rgb(117, 119, 119),rgb(109, 0, 0));
     font-size: 2vmax;
     background-clip: text;
-    color: transparent
-    }
+    color: transparent;
+     gap: 10px;
+     }
 
 button {
-    width: 80%;
+    width: 180px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20%;
     font-size: 20px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(79, 224,234);
-    box-shadow:2px 2px 50px rgb(79, 224,234);
+    background-color: rgb(207, 203, 203);
+    box-shadow:2px 2px 100px rgb(184, 161, 161);
+    gap: 20px;
+    
 }
-
-button:hover {
-    background-color: #dcdfe4;
-}
-
-
-
-
 .response {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-
 }
+
 p{
     font-size: 1.5vmax;
     color: azure;
+    text-align: center;
+    padding: 0px 40px;
 }
+
 #speaking{
     width: 100px;
 }
+
 #gif {
     width: 50vh;
     height: 100px;
