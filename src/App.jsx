@@ -23,9 +23,6 @@ function App() {
     <div className='main'>
       <img src={jeetu} alt='' id='jeetu'/>
       <span>I'm Jeetu2.0, Your Advanced Virtual Assistant</span>
-      
-     
-        <>
           {!speaking ? 
             <button onClick={() => {
               setPrompt("listening...")
@@ -45,7 +42,7 @@ function App() {
               <p>{prompt}</p>
             </div>
           )}
-        </>
+        
       
 
     
