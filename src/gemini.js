@@ -16,7 +16,7 @@ async function generateAIResponse(prompt) {
             }]
           }],
           generationConfig: {
-            maxOutputTokens: 30
+            maxOutputTokens: 40
           }
         })
       }
